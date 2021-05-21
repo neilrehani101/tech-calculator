@@ -1,0 +1,30 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(digital-7.ttf);
+}
+body {
+    background: rgb(30, 168, 76)
+}
+.card {
+    width: 25rem;
+    height: 25rem;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    border: 5px solid
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin-top: 13px;
+    position: relative;
+    right: -10px
+}
+
+#screen {
+    font-family: myFirstFont;
+    height:3rem;
+    text-align: center;
+    font-size: 35px
+}
