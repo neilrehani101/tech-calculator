@@ -16,7 +16,8 @@ for (item of btns) {
         }
         else if (e.target.innerText == "⌫")
         {
-            screen.value = screen.value.slice(0, -1)
+            screenVal = screen.value.substring(0, screen.value.length - 1);
+            screen.value = screen.value.substring(0, screen.value.length - 1);
         }
         else if (e.target.innerText == "="){
             screen.value = eval(screenVal)
